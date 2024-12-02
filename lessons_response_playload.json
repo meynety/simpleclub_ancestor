@@ -1,0 +1,152 @@
+{
+  "lessons": [
+    {
+      "id": "lesson1",
+      "title": "Introduction to Biology",
+      "description": "Explore the basics of biology, the science of life.",
+      "pages": [
+        {
+          "id": "page1",
+          "title": "What is Biology?",
+          "description": "Learn about the scope and significance of biology.",
+          "contentComponents": [
+            {
+              "id": "text1",
+              "type": "text",
+              "text": "Biology is the natural science that studies life and living organisms."
+            },
+            {
+              "id": "image1",
+              "type": "image",
+              "url": "https://picsum.photos/200/300"
+            }
+          ]
+        },
+        {
+          "id": "page2",
+          "title": "Branches of Biology",
+          "description": "Understand the different branches of biology.",
+          "contentComponents": [
+            {
+              "id": "text2",
+              "type": "text",
+              "text": "Biology has many branches, including botany, zoology, and microbiology."
+            },
+            {
+              "id": "image2",
+              "type": "image",
+              "url": "https://picsum.photos/200/300"
+            }
+          ]
+        },
+        {
+          "id": "page3",
+          "title": "Tasks",
+          "description": "Test your knowledge with some questions.",
+          "contentComponents": [
+            {
+              "id": "tasklist1",
+              "type": "taskList",
+              "title": "Biology Quiz",
+              "tasks": [
+                {
+                  "questions": [
+                    {
+                      "stem": "What is the basic unit of life?",
+                      "options": ["Atom", "Molecule", "Cell", "Organ"],
+                      "correctOptionIndexes": [2]
+                    },
+                    {
+                      "stem": "Which of these is a branch of biology?",
+                      "options": ["Physics", "Botany", "Chemistry", "Mathematics"],
+                      "correctOptionIndexes": [1]
+                    },
+                    {
+                      "stem": "Which organisms are studied in microbiology?",
+                      "options": ["Trees", "Animals", "Microorganisms", "Planets"],
+                      "correctOptionIndexes": [2]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson2",
+      "title": "Basics of Physics",
+      "description": "Dive into the world of physics and its fundamental principles.",
+      "pages": [
+        {
+          "id": "page1",
+          "title": "Introduction to Physics",
+          "description": "Discover the science that explains how the universe behaves.",
+          "contentComponents": [
+            {
+              "id": "text3",
+              "type": "text",
+              "text": "Physics is the science of matter, energy, and the interactions between them."
+            },
+            {
+              "id": "image3",
+              "type": "image",
+              "url": "https://picsum.photos/300/200"
+            }
+          ]
+        },
+        {
+          "id": "page2",
+          "title": "Key Concepts in Physics",
+          "description": "Learn about fundamental concepts like force, energy, and motion.",
+          "contentComponents": [
+            {
+              "id": "text4",
+              "type": "text",
+              "text": "Force, energy, and motion are central to understanding the physical world."
+            },
+            {
+              "id": "image4",
+              "type": "image",
+              "url": "https://picsum.photos/300/200"
+            }
+          ]
+        },
+        {
+          "id": "page3",
+          "title": "Tasks",
+          "description": "Evaluate your understanding with some physics questions.",
+          "contentComponents": [
+            {
+              "id": "tasklist2",
+              "type": "taskList",
+              "title": "Physics Quiz",
+              "tasks": [
+                {
+                  "questions": [
+                    {
+                      "stem": "What is the unit of force?",
+                      "options": ["Joule", "Newton", "Pascal", "Watt"],
+                      "correctOptionIndexes": [1]
+                    },
+                    {
+                      "stem": "Who is known as the father of modern physics?",
+                      "options": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Marie Curie"],
+                      "correctOptionIndexes": [1]
+                    },
+                    {
+                      "stem": "What is the speed of light in vacuum?",
+                      "options": ["300,000 km/s", "150,000 km/s", "400,000 km/s", "100,000 km/s"],
+                      "correctOptionIndexes": [0]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
