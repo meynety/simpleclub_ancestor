@@ -13,7 +13,7 @@
             {
               "id": "text1",
               "type": "text",
-              "text": "Biology is the natural science that studies life and living organisms."
+              "htmlText": "<b>Biology</b> is the natural science that studies life and living organisms."
             },
             {
               "id": "image1",
@@ -30,7 +30,7 @@
             {
               "id": "text2",
               "type": "text",
-              "text": "Biology has many branches, including botany, zoology, and microbiology."
+              "htmlText": "Biology has many branches, including <i>botany, zoology, and microbiology</i>."
             },
             {
               "id": "image2",
@@ -50,6 +50,7 @@
               "title": "Biology Quiz",
               "tasks": [
                 {
+                  "title" : "First Quiz",
                   "questions": [
                     {
                       "stem": "What is the basic unit of life?",
@@ -87,7 +88,7 @@
             {
               "id": "text3",
               "type": "text",
-              "text": "Physics is the science of matter, energy, and the interactions between them."
+              "htmlText": "Physics is the science of <i>matter, energy</i>, and the interactions between them."
             },
             {
               "id": "image3",
@@ -104,7 +105,7 @@
             {
               "id": "text4",
               "type": "text",
-              "text": "Force, energy, and motion are central to understanding the physical world."
+              "htmlText": "Force, <b>energy</b>, and motion are central to understanding the physical world."
             },
             {
               "id": "image4",
@@ -124,6 +125,7 @@
               "title": "Physics Quiz",
               "tasks": [
                 {
+                  "title" : "First Quiz",
                   "questions": [
                     {
                       "stem": "What is the unit of force?",
