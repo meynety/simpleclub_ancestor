@@ -1,154 +1,298 @@
 {
   "lessons": [
     {
-      "id": "lesson1",
-      "title": "Introduction to Biology",
-      "description": "Explore the basics of biology, the science of life.",
+      "id": "lesson_1",
+      "title": "Introduction to Cells",
+      "description": "This lesson will introduce you to the basic building blocks of all living things: cells.",
       "pages": [
         {
-          "id": "page1",
-          "title": "What is Biology?",
-          "description": "Learn about the scope and significance of biology.",
+          "id": "page_1_lesson_1",
+          "title": "What is a Cell?",
+          "description": "Cells are the fundamental unit of life. They are microscopic units that contain all the instructions needed for an organism to live and grow.",
           "contentComponents": [
             {
-              "id": "text1",
+              "id": "content_1_page_1_lesson_1",
               "type": "text",
-              "htmlText": "<b>Biology</b> is the natural science that studies life and living organisms."
+              "textContent": {
+                "htmlText": "<p>All living things, from the simplest bacteria to the most complex animals, are made up of cells. Cells are often called the building blocks of life. Just like bricks can be used to build a house, cells can be used to build an organism.</p><p>Cells are very small. Most cells can only be seen with a microscope. There are many different shapes and sizes of cells, but they all have some basic things in common.</p>"
+              }
             },
             {
-              "id": "image1",
+              "id": "content_2_page_1_lesson_1",
               "type": "image",
-              "url": "https://picsum.photos/200/300"
+              "urlBasedContentComponent": {
+                "url": "https://picsum.photos/id/1027/400/300"
+              }
             }
           ]
         },
         {
-          "id": "page2",
-          "title": "Branches of Biology",
-          "description": "Understand the different branches of biology.",
+          "id": "page_2_lesson_1",
+          "title": "The Parts of a Cell",
+          "description": "Cells have many different parts, each with a specific function.",
           "contentComponents": [
             {
-              "id": "text2",
+              "id": "content_1_page_2_lesson_1",
               "type": "text",
-              "htmlText": "Biology has many branches, including <i>botany, zoology, and microbiology</i>."
+              "textContent": {
+                "htmlText": "<p>The main parts of a cell are:</p><ul><li>Cell membrane: The cell membrane controls what goes in and out of the cell.</li><li>Cytoplasm: The cytoplasm is the jelly-like substance that fills the cell and holds all the other parts of the cell in place.</li><li>Nucleus: The nucleus is the control center of the cell. It contains the cell's DNA, which is the genetic material that tells the cell how to make proteins.</li><li>Ribosomes: Ribosomes are tiny machines that make proteins according to the instructions from the DNA.</li></ul><p>There are many other parts of a cell, but these are the main ones.</p>"
+              }
             },
             {
-              "id": "image2",
+              "id": "content_2_page_2_lesson_1",
               "type": "image",
-              "url": "https://picsum.photos/200/300"
+              "urlBasedContentComponent": {
+                "url": "https://picsum.photos/id/204/400/300"
+              }
             }
           ]
         },
         {
-          "id": "page3",
-          "title": "Tasks",
-          "description": "Test your knowledge with some questions.",
+          "id": "page_3_lesson_1",
+          "title": "Task: Cell Types",
+          "description": "Test your knowledge about different cell types.",
           "contentComponents": [
             {
-              "id": "tasklist1",
+              "id": "content_1_page_3_lesson_1",
               "type": "taskList",
-              "title": "Biology Quiz",
-              "tasks": [
-                {
-                  "title" : "First Quiz",
-                  "questions": [
-                    {
-                      "stem": "What is the basic unit of life?",
-                      "options": ["Atom", "Molecule", "Cell", "Organ"],
-                      "correctOptionIndexes": [2]
-                    },
-                    {
-                      "stem": "Which of these is a branch of biology?",
-                      "options": ["Physics", "Botany", "Chemistry", "Mathematics"],
-                      "correctOptionIndexes": [1]
-                    },
-                    {
-                      "stem": "Which organisms are studied in microbiology?",
-                      "options": ["Trees", "Animals", "Microorganisms", "Planets"],
-                      "correctOptionIndexes": [2]
-                    }
-                  ]
-                }
-              ]
+              "taskListContentComponent": {
+                "title": "Cell Types",
+                "tasks": [
+                  {
+                    "id": "task_1_page_3_lesson_1",
+                    "title": "Which of the following is NOT a type of cell?",
+                    "questions": [
+                      {
+                        "stem": "There are two main types of cells: prokaryotic and eukaryotic. Which of the following is a characteristic of prokaryotic cells?",
+                        "options": [
+                          "Have a nucleus",
+                          "Have a cell membrane",
+                          "Have DNA",
+                          "Have complex organelles"
+                        ],
+                        "correctOptionIndexes": [2]
+                      },
+                      {
+                        "stem": "Animal cells and plant cells are both eukaryotic cells. However, they also have some differences. Which of the following is NOT found in animal cells?",
+                        "options": [
+                          "Cell wall",
+                          "Cell membrane",
+                          "Nucleus",
+                          "Cytoplasm"
+                        ],
+                        "correctOptionIndexes": [0]
+                      }
+                    ]
+                  }
+                ]
+              }
             }
           ]
         }
       ]
     },
     {
-      "id": "lesson2",
-      "title": "Basics of Physics",
-      "description": "Dive into the world of physics and its fundamental principles.",
-      "pages": [
-        {
-          "id": "page1",
-          "title": "Introduction to Physics",
-          "description": "Discover the science that explains how the universe behaves.",
-          "contentComponents": [
+          "id": "lesson_2",
+          "title": "The Cell Cycle",
+          "description": "This lesson will explore the different stages of the cell cycle, the process by which cells grow and divide.",
+          "pages": [
             {
-              "id": "text3",
-              "type": "text",
-              "htmlText": "Physics is the science of <i>matter, energy</i>, and the interactions between them."
-            },
-            {
-              "id": "image3",
-              "type": "image",
-              "url": "https://picsum.photos/300/200"
-            }
-          ]
-        },
-        {
-          "id": "page2",
-          "title": "Key Concepts in Physics",
-          "description": "Learn about fundamental concepts like force, energy, and motion.",
-          "contentComponents": [
-            {
-              "id": "text4",
-              "type": "text",
-              "htmlText": "Force, <b>energy</b>, and motion are central to understanding the physical world."
-            },
-            {
-              "id": "image4",
-              "type": "image",
-              "url": "https://picsum.photos/300/200"
-            }
-          ]
-        },
-        {
-          "id": "page3",
-          "title": "Tasks",
-          "description": "Evaluate your understanding with some physics questions.",
-          "contentComponents": [
-            {
-              "id": "tasklist2",
-              "type": "taskList",
-              "title": "Physics Quiz",
-              "tasks": [
+              "id": "page_1_lesson_2",
+              "title": "What is the Cell Cycle?",
+              "description": "The cell cycle is a series of events that take place in a cell leading to its division and duplication (replication).",
+              "contentComponents": [
                 {
-                  "title" : "First Quiz",
-                  "questions": [
-                    {
-                      "stem": "What is the unit of force?",
-                      "options": ["Joule", "Newton", "Pascal", "Watt"],
-                      "correctOptionIndexes": [1]
-                    },
-                    {
-                      "stem": "Who is known as the father of modern physics?",
-                      "options": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Marie Curie"],
-                      "correctOptionIndexes": [1]
-                    },
-                    {
-                      "stem": "What is the speed of light in vacuum?",
-                      "options": ["300,000 km/s", "150,000 km/s", "400,000 km/s", "100,000 km/s"],
-                      "correctOptionIndexes": [0]
-                    }
-                  ]
+                  "id": "content_1_page_1_lesson_2",
+                  "type": "text",
+                  "textContent": {
+                    "htmlText": "<p>The cell cycle is a fundamental process in all living organisms. It ensures that new cells are produced to replace old or damaged cells, and to allow for growth and development.</p><p>The cell cycle is divided into two main phases: interphase and mitosis.</p>"
+                  }
+                },
+                {
+                  "id": "content_2_page_1_lesson_2",
+                  "type": "image",
+                  "urlBasedContentComponent": {
+                    "url": "https://picsum.photos/id/237/400/300"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "page_2_lesson_2",
+              "title": "Interphase",
+              "description": "Interphase is the longest phase of the cell cycle, and it is divided into three stages: G1, S, and G2.",
+              "contentComponents": [
+                {
+                  "id": "content_1_page_2_lesson_2",
+                  "type": "text",
+                  "textContent": {
+                    "htmlText": "<p>During G1 phase, the cell grows and prepares for DNA replication. In S phase, the cell's DNA is replicated. During G2 phase, the cell continues to grow and prepares for mitosis.</p>"
+                  }
+                },
+                {
+                  "id": "content_2_page_2_lesson_2",
+                  "type": "image",
+                  "urlBasedContentComponent": {
+                    "url": "https://picsum.photos/id/201/400/300"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "page_3_lesson_2",
+              "title": "Mitosis",
+              "description": "Mitosis is the process of cell division, and it is divided into four stages: prophase, metaphase, anaphase, and telophase.",
+              "contentComponents": [
+                {
+                  "id": "content_1_page_3_lesson_2",
+                  "type": "text",
+                  "textContent": {
+                    "htmlText": "<p>During prophase, the chromosomes condense and become visible. During metaphase, the chromosomes line up in the middle of the cell. During anaphase, the chromosomes are pulled apart to opposite ends of the cell. During telophase, two new nuclei form around the chromosomes.</p>"
+                  }
+                },
+                {
+                  "id": "content_2_page_3_lesson_2",
+                  "type": "image",
+                  "urlBasedContentComponent": {
+                    "url": "https://picsum.photos/id/1074/400/300"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "page_4_lesson_2",
+              "title": "Task: Cell Cycle Stages",
+              "description": "Test your knowledge about the different stages of the cell cycle.",
+              "contentComponents": [
+                {
+                  "id": "content_1_page_4_lesson_2",
+                  "type": "taskList",
+                  "taskListContentComponent": {
+                    "title": "Cell Cycle Stages",
+                    "tasks": [
+                      {
+                        "id": "task_1_page_4_lesson_2",
+                        "title": "Cell Cycle Stages",
+                        "questions": [
+                          {
+                            "stem": "Which phase of the cell cycle is the longest?",
+                            "options": [
+                              "Mitosis",
+                              "Interphase",
+                              "Cytokinesis",
+                              "Prophase"
+                            ],
+                            "correctOptionIndexes": [1]
+                          },
+                          {
+                            "stem": "During which phase of mitosis do the chromosomes line up in the middle of the cell?",
+                            "options": [
+                              "Prophase",
+                              "Metaphase",
+                              "Anaphase",
+                              "Telophase"
+                            ],
+                            "correctOptionIndexes": [1]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+    {
+          "id": "lesson_3",
+          "title": "Photosynthesis",
+          "description": "This lesson will explore the process of photosynthesis, how plants use sunlight to convert water and carbon dioxide into food.",
+          "pages": [
+            {
+              "id": "page_1_lesson_3",
+              "title": "What is Photosynthesis?",
+              "description": "Photosynthesis is the process by which plants use sunlight to convert water and carbon dioxide into glucose, a type of sugar that plants use for food.",
+              "contentComponents": [
+                {
+                  "id": "content_1_page_1_lesson_3",
+                  "type": "text",
+                  "textContent": {
+                    "htmlText": "<p>Photosynthesis is essential for life on Earth. It provides the oxygen that we breathe and the food that we eat.</p><p>Photosynthesis takes place in the chloroplasts of plant cells. Chloroplasts contain chlorophyll, a green pigment that absorbs sunlight.</p>"
+                  }
+                },
+                {
+                  "id": "content_2_page_1_lesson_3",
+                  "type": "image",
+                  "urlBasedContentComponent": {
+                    "url": "https://picsum.photos/id/1062/400/300"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "page_2_lesson_3",
+              "title": "The Process of Photosynthesis",
+              "description": "Photosynthesis is a complex process that involves many steps.",
+              "contentComponents": [
+                {
+                  "id": "content_1_page_2_lesson_3",
+                  "type": "text",
+                  "textContent": {
+                    "htmlText": "<p>The first step in photosynthesis is the absorption of sunlight by chlorophyll. The energy from sunlight is used to split water molecules into hydrogen and oxygen. The hydrogen is then used to convert carbon dioxide into glucose.</p>"
+                  }
+                },
+                {
+                  "id": "content_2_page_2_lesson_3",
+                  "type": "image",
+                  "urlBasedContentComponent": {
+                    "url": "https://picsum.photos/id/1015/400/300"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "page_3_lesson_3",
+              "title": "Task: Photosynthesis",
+              "description": "Test your knowledge about photosynthesis.",
+              "contentComponents": [
+                {
+                  "id": "content_1_page_3_lesson_3",
+                  "type": "taskList",
+                  "taskListContentComponent": {
+                    "title": "Photosynthesis",
+                    "tasks": [
+                      {
+                        "id": "task_1_page_3_lesson_3",
+                        "title": "Photosynthesis",
+                        "questions": [
+                          {
+                            "stem": "What is the primary pigment involved in photosynthesis?",
+                            "options": [
+                              "Chlorophyll",
+                              "Hemoglobin",
+                              "Myoglobin",
+                              "Cytochrome"
+                            ],
+                            "correctOptionIndexes": [0]
+                          },
+                          {
+                            "stem": "What is the source of energy for photosynthesis?",
+                            "options": [
+                              "Water",
+                              "Carbon dioxide",
+                              "Sunlight",
+                              "Glucose"
+                            ],
+                            "correctOptionIndexes": [2]
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
           ]
         }
-      ]
-    }
   ]
 }
